@@ -19,7 +19,6 @@ page="<!doctype html>
   <meta charset=\"utf-8\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
   <title>publish-wasm fork $version</title>
-  <link rel=\"stylesheet\" href=\"css/style.css\">
   <meta name=\"description\" content=\"Figuring out publish-wasm. Currently $version\">
 </head>
 
