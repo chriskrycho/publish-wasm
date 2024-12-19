@@ -32,5 +32,4 @@ page="<!doctype html>
 
 </html>"
 
-mkdir -p ./dist
 echo "$page" > ./dist/index.html

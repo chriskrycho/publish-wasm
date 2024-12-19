@@ -27,6 +27,8 @@ jobs:
         run: |
           cargo build --release --target wasm32-unknown-unknown --features wasm
 
+      - run: mkdir -p ./dist
+
       - name: Rename artifact
         run: |
           ARTIFACT=target/wasm32-unknown-unknown/release/publish-wasm.wasm
