@@ -10,7 +10,7 @@ fi
 # The version should be the first argument.
 version="$1"
 
-echo "Generating HTML page for dprint-plugin-markdown-$version.wasm"
+echo "Generating HTML page for publish-wasm-$version.wasm"
 
 page="<!doctype html>
 <html lang=\"en-US\">
@@ -18,15 +18,15 @@ page="<!doctype html>
 <head>
   <meta charset=\"utf-8\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <title>dprint-plugin-markdown fork v$version</title>
+  <title>publish-wasm fork v$version</title>
   <link rel=\"stylesheet\" href=\"css/style.css\">
-  <meta name=\"description\" content=\"Fork of dprint-plugin-markdown until it gets merged. Currently v$version\">
+  <meta name=\"description\" content=\"Fork of publish-wasm until it gets merged. Currently v$version\">
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p><a href=\"./dprint-plugin-markdown-$version.wasm\">dprint-plugin-markdown v$version</a></p>
+  <p><a href=\"./publish-wasm-$version.wasm\">publish-wasm v$version</a></p>
 
 </body>
 

@@ -29,8 +29,8 @@ jobs:
 
       - name: Rename artifact
         run: |
-          ARTIFACT=target/wasm32-unknown-unknown/release/dprint_plugin_markdown.wasm
-          UPLOAD=./dist/dprint_plugin_markdown-${{ github.ref_name }}.wasm
+          ARTIFACT=target/wasm32-unknown-unknown/release/publish-wasm.wasm
+          UPLOAD=./dist/publish-wasm-${{ github.ref_name }}.wasm
           mv ${ARTIFACT} ${UPLOAD}
 
       - name: Generate HTML
