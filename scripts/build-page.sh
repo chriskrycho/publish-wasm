@@ -18,15 +18,15 @@ page="<!doctype html>
 <head>
   <meta charset=\"utf-8\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <title>publish-wasm fork v$version</title>
+  <title>publish-wasm fork $version</title>
   <link rel=\"stylesheet\" href=\"css/style.css\">
-  <meta name=\"description\" content=\"Fork of publish-wasm until it gets merged. Currently v$version\">
+  <meta name=\"description\" content=\"Fork of publish-wasm until it gets merged. Currently $version\">
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p><a href=\"./publish-wasm-$version.wasm\">publish-wasm v$version</a></p>
+  <p><a href=\"./publish-wasm-$version.wasm\">publish-wasm $version</a></p>
 
 </body>
 
