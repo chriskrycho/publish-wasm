@@ -42,7 +42,7 @@ jobs:
       - name: Upload HTML and WASM artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${UPLOAD}
+          path: ./dist
 
   deploy:
     runs-on: ubuntu-latest
