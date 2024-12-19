@@ -34,7 +34,7 @@ jobs:
           mv ${ARTIFACT} ${UPLOAD}
 
       - name: Generate HTML
-        run: ./scripts/build-page.sh
+        run: ./scripts/build-page.sh ${{ github.ref_name }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
