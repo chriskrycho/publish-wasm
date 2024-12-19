@@ -20,8 +20,6 @@ jobs:
         with:
           toolchain: stable
           target: wasm32-unknown-unknown
-          profile: minimal
-          override: true
 
       - name: Build WASM
         run: |
